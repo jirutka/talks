@@ -1,0 +1,6 @@
+= Talks
+:docrole: markdown-body
+:stylesheet: index.css
+:linkcss:
+:slides-com: https://slides.com/jirutka
+:gh-pages: https://jirutka.github.io/talks
