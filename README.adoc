@@ -4,3 +4,22 @@
 :linkcss:
 :slides-com: https://slides.com/jirutka
 :gh-pages: https://jirutka.github.io/talks
+
+
+== 2024
+
+=== Automated macOS installation for VMs
+:talk-name: 2024-installfest-macos-on-vm
+
+*Abstract:*
+How to install macOS on a Linux virtualisation infrastructure – from downloading the installer from Apple, through installation, initial setup, customisation and creating a bootable disk image.
+And it’s done in a way that Cupertino probably hasn’t even thought of – without the use of a mouse, fully automated with CI.
+For comparison, I’ll also show how easy it is to do the same thing with Alpine Linux.
+
+*Event:*
+https://installfest.cz/if24/[Installfest 2024]
+
+*Slides on*:
+
+* {gh-pages}/{talk-name}[jirutka.github.io]
+* {slides-com}/{talk-name}[slides.com]
