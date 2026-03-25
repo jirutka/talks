@@ -6,6 +6,27 @@
 :gh-pages: https://jirutka.github.io/talks
 
 
+== 2025
+
+=== Electronic Door Signs at FEL CVUT
+:talk-name: 2025-openalt-eink-door-signs
+
+*Abstract:*
+At the Faculty of Electrical Engineering (FEL) of the Czech Technical University (ČVUT), we have started replacing paper classroom schedules with electronic paper.
+The new door signs display the daily timetable as well as what is currently taking place in the classroom.
+They are built on the open-hardware ESPink board from a well-known Czech manufacturer, feature a 10.2” e-ink display, a battery (or passive PoE), and a 3D-printed frame.
+We designed the firmware, the frame, the control software, and monitoring ourselves to suit our specific needs.
+The door signs communicate via Wi-Fi and MQTT – they receive images to display from the control server and send back telemetry data.
+
+*Event:*
+https://www.openalt.cz/2025/[OpenAlt 2025]
+
+*Slides on:*
+
+* {gh-pages}/{talk-name}[jirutka.github.io]
+* {slides-com}/eink-door-signs[slides.com]
+
+
 == 2024
 
 === Automated macOS installation for VMs
