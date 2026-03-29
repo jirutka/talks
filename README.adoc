@@ -6,6 +6,28 @@
 :gh-pages: https://jirutka.github.io/talks
 
 
+== 2026
+
+=== DNS as a Code: Managing Large DNS Zones in Git
+:talk-name: 2026-installfest-dns-as-a-code
+
+*Abstract:*
+In this presentation, I will show you how we manage tens of DNS zones with several thousand records at the Faculty of Electrical Engineering (FEL) of the Czech Technical University (ČVUT) using the “DNS as a Code” and “GitOps” approaches.
+
+We define DNS records in structured YAML files alongside organisational metadata, validation using JSON Schema, and a set of checks that catch logical errors across zones before deployment.
+Every change goes through a merge request and CI checks.
+The definitions are compiled into classic zone files for authoritative servers, and selected zones are generated from data in NetBox.
+A simple web application for convenient viewing and searching of records is also included.
+
+*Event:*
+https://installfest.cz/if26/[Installfest 2026]
+
+*Slides on:*
+
+* {gh-pages}/{talk-name}[jirutka.github.io]
+* {slides-com}/{talk-name}[slides.com]
+
+
 == 2025
 
 === Electronic Door Signs at FEL CVUT
